@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/poke"
+        android:title="Pokedex"
+        android:icon="@drawable/book"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/car"
+        android:title="Carte"
+        android:icon="@drawable/gps"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/capt"
+        android:title="Capturé"
+        android:icon="@drawable/accept"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/invent"
+        android:title="Inventaire"
+        android:icon="@drawable/bagg"
+        app:showAsAction="ifRoom" />
+</menu>
